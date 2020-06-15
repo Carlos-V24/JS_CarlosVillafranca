@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Lemonada-Medium";
+  src: url("Lemonada-Medium.ttf");
+}
+h1, h3{
+  font-family: "Lemonada-Medium";
+  text-align: center;
+}
+div{
+  background-color: #c97536;
+  height: 300px;
+  margin-left: 50px;
+  padding-bottom: 30px;
+  position: relative;
+  width: 30px;
+}
+h3{
+  background-color: #c97536;
+  height: 30px;
+  margin-bottom: -30px;
+  padding: 5px;
+  position: absolute;
+  top: -50px;
+  width: 100px;
+}
+p{
+  border-radius: 30px;
+  margin-bottom: -10px;
+  position: relative;
+}
+.Disc1{
+  background-color: #d51c1c;
+  height: 30px;
+  left: -40%;
+  width: 180%;
+}
+.Disc2{
+  background-color: #f26108;
+  height: 30px;
+  left: -80%;
+  width: 260%;
+}
+.Disc3{
+  background-color: #ffcc00;
+  height: 30px;
+  left: -120%;
+  width: 340%;
+}
+.Disc4{
+  background-color: #50d51c;
+  height: 30px;
+  left: -200%;
+  width: 500%;
+}
+.Disc5{
+  background-color: #127510;
+  height: 30px;
+  left: -290%;
+  width: 680%;
+}
+.Disc6{
+  background-color: #074f73;
+  height: 30px;
+  left: -360%;
+  width: 820%;
+}
+.Disc7{
+  background-color: #0b035e;
+  height: 30px;
+  left: -440%;
+  width: 980%;
+}
+.Disc8{
+  background-color: #49068a;
+  height: 30px;
+  left: -500%;
+  width: 1100%;
+}
+.Torre1{
+  left: 20%;
+}
+.Torre2{
+  left: 40%;
+}
+.Torre3{
+  left: 60%;
+}
+#Torres{
+  margin-top: 200px;
+  display: flex;
+}
