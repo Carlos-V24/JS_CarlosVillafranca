@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("../font/PressStart2P-Regular.ttf");
+}
+body {
+  background: rgb(227,238,174);
+  background: radial-gradient(circle, rgba(227,238,174,1) 0%, rgba(148,187,233,1) 100%);
+  background-attachment: fixed;
+}
+.celda{
+  width:100%;
+  height: 10%;
+  background-color:	#7FFF00;
+}
+.columna {
+  width: 10%;
+  height: 100%;
+}
+.terreno{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+  border: 5px solid forestgreen;
+  margin-left: auto;
+  margin-right: auto;
+}
+.manzana{
+  background: rgb(255,107,107);
+  background: radial-gradient(circle, rgba(255,107,107,1) 0%, rgba(255,21,0,1) 100%);
+  color: #ec2d2d;
+}
+.btns {
+  display: grid;
+  width: 500px;
+  height: 220px;
+  padding: 10px;
+}
+.Viborita{
+  background: #7B68EE;
+}
+#Puntuacion {
+  text-align: center;
+  /*El borde en las letras se la podemos quitar, como vean -Cristian*/
+  -webkit-text-stroke: 0.5px purple;
+  font-size: 35px;
+  color: #9932CC;
+  font-weight: bolder;
+  font-family: "PressStart2P-Regular";
+}
