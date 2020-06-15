@@ -1,0 +1,19 @@
+/*Columna impar celda impar ó celda par celda par */
+tr:nth-child(even) td:nth-child(even), tr:nth-child(odd) td:nth-child(odd) {
+  background: #e6a100;
+}
+/*Columna par celda impar ó celda impar celda par */
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background: #1a1088;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+td{
+  width: 50px;
+  height: 50px;
+}
