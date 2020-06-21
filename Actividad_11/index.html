@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+      <p class="TamPant"></p>
+    </div>
+    <h2>onblur</h2>
+      <p><i>Se activa cuando el usuario deja el input so input</i></p>
+      <p>Escribe algo y despues te lo tranformara en mayusculas cuando salgas del input.</p>
+      Esribe algo: <input type="text" id="onblur" onblur="MAYUSCULAS()">
+      <br><br>
+    <h2>copy</h2>
+      <p><i>Se activa cuando el usuario copia algo </i></p>
+      <p>Copia el texto que esta en el textarea.</p>
+      <textarea name="Copiar"  oncopy="Copiar()" rows="8" cols="80">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </textarea>
+      <p id="AlertaCtrlC"></p>
+    <h2>Input</h2>
+      <p><i>Se activa cuando el usuario escribe algo en un input</i></p>
+      <p>Escribe la contraseña coorecta PISTA:"Es una ContraseñaSegura:D" .</p>
+      <input type="password" id="Psw" oninput="myFunction()">
+      <p id="Resultado"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
