@@ -1,0 +1,28 @@
+#Datos{
+  position: absolute;
+  text-align: center;
+  width: 40%;
+  left: 55%;
+}
+#Registros{
+  height: 300px;
+  overflow-y: scroll;
+}
+#Cont{
+  width: 50%;
+  left: 10%;
+  margin-top: 40px;
+}
+button{
+  padding: 10px 15px;
+  margin: 0 20px;;
+}
+input{
+  width: 15%;
+  margin: 0 10px;
+}
+.Registro{
+  margin: 10px 0;
+  padding: 10px;
+  width: 80%
+}

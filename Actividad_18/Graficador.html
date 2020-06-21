@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="Estilo.css">
+    <title></title>
+  </head>
+  <body>
+    <fieldset id="Datos">
+      <legend><h1>Graficainador</h1></legend>
+      <h2>Ingresa Titulo</h2>
+      <input type="text" id="Titulo">
+      <h2>Escoge Tipo</h2>
+      <select id="Tipo">
+        <option value="polarArea">Polar</option>
+        <option value="pie">Pie</option>
+        <option value="doughnut">Dona</option>
+      </select>
+      <h2>Ingresa tus datos</h2>
+      <button type="button" id="Graficar">Graficar</button>
+      <button type="button" id="Añadir">Añadir</button>
+      <section id="Registros">
+        <div class="Registro">
+          <input type="text" name="Nombre" placeholder="Nombre">
+          <input type="number" name="Valor" placeholder="Valor">
+          <input type="color" name="Color">
+          <input type="submit" name="Eliminar" value="Eliminar">
+        </div>
+      </section>
+    </fieldset>
+    <section id="Cont">
+      <canvas id="LaGrafica"></canvas>
+    </section>
+    <script src="Graficador.js" charset="utf-8"></script>
+  </body>
+</html>
